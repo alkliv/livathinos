@@ -1,3 +1,9 @@
+@-webkit-viewport {width: device-width;}
+@-moz-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
+
 @media screen and (max-width: 960px) {
     #container, footer {
         width: 758px;
@@ -19,9 +25,12 @@
     .wrap{
         width: 450px;
     }
+    .showicon {
+        width: 40px !important;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 38em)  {
     .wrap{
         width: 310px;
     }
@@ -43,6 +52,5 @@
     }
     .showicon {
         width: 40px !important;
-
     }
 }
