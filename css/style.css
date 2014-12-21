@@ -61,9 +61,7 @@
 
 .showicon {
     width:30px;
-    filter: grayscale(100%);
-    filter: url(#greyscale);
     filter: gray;
-    -webkit-filter: grayscale(1);
+    
 
 }
