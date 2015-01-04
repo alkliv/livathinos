@@ -30,27 +30,30 @@
     }
 }
 
-@media only screen and (max-width: 38em)  {
+@media only screen and (max-width: 680px)  {
     .wrap{
-        width: 310px;
+        width: 310px !important;
     }
     .wrap h3 {
-        font-size: 60px;
+        font-size: 60px !important;
     }
     .wrap h3:after {
         content: "";
         display: block;
         border-bottom: 1px solid #000;
-        padding-top: 13px;
+        padding-top: 15px;
     }
     .wrap h5 {
         letter-spacing: 8px;
         text-transform: uppercase;
         text-align: center;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        margin-top: -30px;
+        margin-top: -50px !important;
     }
     .showicon {
         width: 40px !important;
+    }
+    #cord{
+        left:0%;
     }
 }
